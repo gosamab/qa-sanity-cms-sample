@@ -6,3 +6,4 @@ test-results/
 playwright-report/
 .preview-secret
 *.log
+*-v1.pdf
