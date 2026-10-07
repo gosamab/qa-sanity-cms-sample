@@ -1,0 +1,17 @@
+{
+  "name": "qa-sanity-sample",
+  "private": true,
+  "description": "Sample QA pass on a self-hosted copy of Sanity's official Next.js starter with seeded messy CMS content (not client work).",
+  "scripts": {
+    "seed": "node seed/build-seed.mjs && cd site/studio && npx sanity documents create ../../seed/messy-content.json --replace",
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4",
+    "marked": "^18.1.0",
+    "typescript": "^7.0.2"
+  }
+}

@@ -1,0 +1,11 @@
+[
+ {
+  "id": "color-contrast",
+  "impact": "serious",
+  "nodes": 2,
+  "help": "Elements must meet minimum color contrast ratio thresholds",
+  "sample": [
+   "a[href$=\"sanity.io\"][target=\"_blank\"][rel=\"noopener noreferrer\"] > strong"
+  ]
+ }
+]

@@ -1,0 +1,11 @@
+[
+ {
+  "id": "link-name",
+  "impact": "serious",
+  "nodes": 15,
+  "help": "Links must have discernible text",
+  "sample": [
+   "a[href$=\"qa-empty-fields\"]"
+  ]
+ }
+]
